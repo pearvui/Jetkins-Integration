@@ -34,7 +34,7 @@ pipeline {
 
         stage('Integration Tests on Staging') {
             steps {
-                echo 'Running Cypress tests on staging'
+                echo 'Running Cypress integration tests on staging'
             }
         }
 
