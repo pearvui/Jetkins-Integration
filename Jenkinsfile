@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Running Selenium testing'
+                echo 'Running Selenium tests on Unit and Intergration'
             }
         }
 
